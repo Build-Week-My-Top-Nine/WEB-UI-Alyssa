@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+header h1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+header nav a {
+  color: black;
+}
+/*
+@font-face{
+    font-family: "asfd";
+    src: url('sf ds'),
+    url('gdchgs fb hsdgh) format('');
+}
+*/
