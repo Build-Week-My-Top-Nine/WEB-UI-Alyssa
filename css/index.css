@@ -1,10 +1,8 @@
-//less-watch-compiler less css index.less
 header {
   display: flex;
   justify-content: center;
   flex-direction: row;
   background: black;
-
   /* h1 {
     display: flex;
     justify-content: center;
@@ -21,3 +19,10 @@ header {
     }
   } */
 }
+/*
+@font-face{
+    font-family: "asfd";
+    src: url('sf ds'),
+    url('gdchgs fb hsdgh) format('');
+}
+*/
