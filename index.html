@@ -4,20 +4,133 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>My Top Nine</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <title>my top 9</title>
   </head>
   <body>
     <header>
       <h1>
-        MyTop9
+        My Top Nine
       </h1>
 
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Sign In</a>
-      </nav>
+      <div class="search-and-nav-bar">
+        <nav>
+          <a href="#">Home </a>
+          <a href="#">About </a>
+          <a href="#">Contact</a>
+          <a href="#" class="sign-in">Sign In</a>
+        </nav>
+
+        <div class="search-bar">
+          <form class="example" action="action_page.php">
+            <input
+              type="text"
+              placeholder="Search your my top 9 here"
+              name="search"
+            />
+          </form>
+
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+      </div>
     </header>
+
+    <div class="directory-nav">
+      <a href="#">Music</a>
+      <a href="#">Blog</a>
+      <a href="#">Books</a>
+      <a href="#">Food</a>
+      <a href="#">People Near You</a>
+      <a href="#">Memes</a>
+      <a href="#">Groups</a>
+      <a href="#">Movies</a>
+      <a href="#">Meetups</a>
+      <a href="#">Events</a>
+      <a href="#">Friends</a>
+      <a href="#">Tech</a>
+      <a href="#">Jobs</a>
+    </div>
+
+    <div class="parent">
+      <div class="child1">
+        <div class="music-suggestions">
+          <h2>Music Suggestions</h2>
+        </div>
+
+        <div class="archive">
+          <div class="chvrn">
+            <img src="img/music1.png" class="music1" />
+
+            <h3><a href="#">Chvrn - November</a></h3>
+          </div>
+
+          <div class="output">
+            <img src="img/music2.png" class="music2" />
+
+            <h3><a href="#">666 - Output</a></h3>
+          </div>
+
+          <div class="klimeks">
+            <img src="img/music3.png" class="music3" />
+
+            <h3><a href="#">Klimeks - Ultra</a></h3>
+          </div>
+
+          <div class="skeler">
+            <img src="img/music4.png" class="music4" />
+
+            <h3><a href="#">Skeler - One Day</a></h3>
+          </div>
+        </div>
+        <!--End Of Archive-->
+
+        <div class="interests">
+          <div class="column1">
+            <a href="#">Books</a>
+            <a href="#">Blogs</a>
+            <a href="#">ChatRooms</a>
+            <a href="#">Classifieds</a>
+          </div>
+
+          <div class="column2">
+            <a href="#">Memes</a>
+            <a href="#">Filmmakers</a>
+            <a href="#">Games</a>
+            <a href="#">Horoscopes</a>
+          </div>
+
+          <div class="column3">
+            <a href="#">Jobs</a>
+            <a href="#">Movies</a>
+            <a href="#">Music</a>
+            <a href="#">Music Videos</a>
+          </div>
+
+          <div class="column4">
+            <a href="#">MyTopNineIM</a>
+            <a href="#">Schools</a>
+            <a href="#">TV On Demand</a>
+            <a href="#">Videos</a>
+          </div>
+          <!--End of Interest Div-->
+        </div>
+
+        <div class="art-space">
+          <div class="art-archive">
+            <h2>My Top Nine Art Space</h2>
+          </div>
+          <!--End of Art-Space -->
+        </div>
+
+        <!-- End Of Child1-->
+      </div>
+
+      <!-- The End of container Parent-->
+    </div>
   </body>
 </html>
