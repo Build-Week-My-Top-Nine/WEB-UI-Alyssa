@@ -74,6 +74,7 @@
     @media @desktop {
       //background: red;
       width: 50%;
+      padding-bottom: 40px;
     }
 
     h3 {
@@ -89,12 +90,30 @@
         font-size: 50px;
       }
     }
+
+    .michael-btn {
+      @media @desktop {
+        .github-btn-style;
+      }
+
+      a {
+        @media @desktop {
+          .a-github-style();
+        }
+      }
+
+      a:hover {
+        @media @desktop {
+          color: red;
+        }
+      }
+    }
   }
 } //end of project-manager
 
 .front-end {
   @media @desktop {
-    .flex-row();
+    .flex-column-center();
     //background: red;
     padding-top: 100px;
     padding-bottom: 60px;
@@ -104,8 +123,8 @@
 
   .front-end1 {
     @media @desktop {
-      width: 30%;
-      .flex-column-center;
+      //width: 30%;
+      .flex-row-center();
     }
 
     .barbara {
@@ -119,6 +138,7 @@
       @media @desktop {
         background: black;
         .font-style();
+        width: 50%;
       }
 
       h3 {
@@ -132,13 +152,31 @@
           font-size: 50px;
         }
       }
+
+      .barbara-btn {
+        @media @desktop {
+          .github-btn-style;
+        }
+
+        a {
+          @media @desktop {
+            .a-github-style();
+          }
+        }
+
+        a:hover {
+          @media @desktop {
+            color: red;
+          }
+        }
+      }
     }
   } //end of front-end1
 
   .front-end2 {
     @media @desktop {
-      width: 30%;
-      .flex-column-center();
+      //width: 30%;
+      .flex-row-center();
     }
 
     .loralie {
@@ -152,6 +190,7 @@
       @media @desktop {
         background: black;
         .font-style();
+        width: 50%;
       }
 
       h3 {
@@ -163,6 +202,24 @@
       p {
         @media @desktop {
           font-size: 50px;
+        }
+      }
+
+      .loralie-btn {
+        @media @desktop {
+          .github-btn-style;
+        }
+
+        a {
+          @media @desktop {
+            .a-github-style();
+          }
+        }
+
+        a:hover {
+          @media @desktop {
+            color: red;
+          }
         }
       }
     }
@@ -210,6 +267,24 @@
           font-size: 50px;
         }
       }
+
+      .samuel-btn {
+        @media @desktop {
+          .github-btn-style;
+        }
+
+        a {
+          @media @desktop {
+            .a-github-style();
+          }
+        }
+
+        a:hover {
+          @media @desktop {
+            color: red;
+          }
+        }
+      }
     }
   } //end of front-end1
 
@@ -243,6 +318,24 @@
       p {
         @media @desktop {
           font-size: 50px;
+        }
+      }
+
+      .alyssa-btn {
+        @media @desktop {
+          .github-btn-style;
+        }
+
+        a {
+          @media @desktop {
+            .a-github-style();
+          }
+        }
+
+        a:hover {
+          @media @desktop {
+            color: red;
+          }
         }
       }
     }
@@ -282,5 +375,719 @@
         font-size: 50px;
       }
     }
+
+    .tedd-btn {
+      @media @desktop {
+        .github-btn-style;
+      }
+
+      a {
+        @media @desktop {
+          .a-github-style();
+        }
+      }
+
+      a:hover {
+        @media @desktop {
+          color: red;
+        }
+      }
+    }
   }
 }
+
+//note-9 media query
+
+header {
+  @media @note-9-viewport {
+    width: 100%;
+    .flex-column-center();
+  }
+
+  h1 {
+    @media @note-9-viewport {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      //background: black;
+      //padding-left: 50px;
+      text-align: center;
+    }
+  }
+
+  .about-nav {
+    @media @note-9-viewport {
+      .flex-column-center();
+      background-color: black;
+    }
+
+    a:hover {
+      @media @note-9-viewport {
+        color: red;
+      }
+    }
+
+    a {
+      @media @note-9-viewport {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        // border: 2px solid red;
+        //padding-left: 136px;
+        text-align: center;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}
+
+.gatekeepers {
+  @media @note-9-viewport {
+    // background: red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  h2 {
+    @media @note-9-viewport {
+      font-size: 20px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.devs-container {
+  @media @note-9-viewport {
+    .flex-column-center();
+  }
+
+  .project-manager {
+    @media @note-9-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      border-bottom: 4px dotted @header-backgrond-color-1;
+    }
+
+    .michael {
+      @media @note-9-viewport {
+        .note-9-photo-style();
+      }
+    }
+
+    .about-pm {
+      @media @note-9-viewport {
+        .about-container-note-9();
+      }
+
+      h3 {
+        @media @note-9-viewport {
+          .h3-note-9();
+        }
+      }
+
+      p {
+        @media @note-9-viewport {
+          .p-about-note-9();
+        }
+      }
+
+      .michael-btn {
+        @media @note-9-viewport {
+          .about-btn-note-9();
+        }
+
+        a {
+          @media @note-9-viewport {
+            .a-about-note-9();
+          }
+        }
+      }
+    } // end of about-pm
+  } //end of project-manager
+
+  .front-end {
+    @media @note-9-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      border-bottom: 4px dotted @header-backgrond-color-1;
+      padding-top: 40px;
+    }
+
+    .front-end1 {
+      @media @note-9-viewport {
+        .flex-column-center();
+      }
+
+      .barbara {
+        @media @note-9-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-barbara {
+        @media @note-9-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @note-9-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @note-9-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .barbara-btn {
+          @media @note-9-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @note-9-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-barbara
+    } //end of front-end1
+
+    .front-end2 {
+      @media @note-9-viewport {
+        .flex-column-center();
+        padding-top: 50px;
+      }
+
+      .loralie {
+        @media @note-9-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-loralie {
+        @media @note-9-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @note-9-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @note-9-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .loralie-btn {
+          @media @note-9-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @note-9-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-loralie
+    } //end of front-end2
+  } // end of front-end
+
+  .web-ui {
+    @media @note-9-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      border-bottom: 4px dotted @header-backgrond-color-1;
+      padding-top: 40px;
+    }
+
+    .web-ui1 {
+      @media @note-9-viewport {
+        .flex-column-center();
+      }
+
+      .samuel {
+        @media @note-9-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-samuel {
+        @media @note-9-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @note-9-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @note-9-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .samuel-btn {
+          @media @note-9-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @note-9-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-samuel
+    } //end of web-ui1
+
+    .web-ui2 {
+      @media @note-9-viewport {
+        .flex-column-center();
+        padding-top: 50px;
+      }
+
+      .alyssa {
+        @media @note-9-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-alyssa {
+        @media @note-9-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @note-9-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @note-9-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .alyssa-btn {
+          @media @note-9-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @note-9-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-alyssa
+    } //end of web-ui2
+  } // end of web-ui
+
+  .back-end {
+    @media @note-9-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      //border-bottom: 4px dotted @header-backgrond-color-1;
+      padding-top: 40px;
+    }
+
+    .tedd {
+      @media @note-9-viewport {
+        .note-9-photo-style();
+      }
+    }
+
+    .about-tedd {
+      @media @note-9-viewport {
+        .about-container-note-9();
+      }
+
+      h3 {
+        @media @note-9-viewport {
+          .h3-note-9();
+        }
+      }
+
+      p {
+        @media @note-9-viewport {
+          .p-about-note-9();
+        }
+      }
+
+      .tedd-btn {
+        @media @note-9-viewport {
+          .about-btn-note-9();
+        }
+
+        a {
+          @media @note-9-viewport {
+            .a-about-note-9();
+          }
+        }
+      }
+    }
+  } //end of back-end
+} //end  of devs-container
+
+//iphone 8
+
+header {
+  @media @iphone-8-viewport {
+    width: 100%;
+    .flex-column-center();
+  }
+
+  h1 {
+    @media @iphone-8-viewport {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      //background: black;
+      //padding-left: 50px;
+      text-align: center;
+    }
+  }
+
+  .about-nav {
+    @media @iphone-8-viewport {
+      .flex-column-center();
+      background-color: black;
+    }
+
+    a:hover {
+      @media @iphone-8-viewport {
+        color: red;
+      }
+    }
+
+    a {
+      @media @iphone-8-viewport {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        // border: 2px solid red;
+        //padding-left: 136px;
+        text-align: center;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}
+
+.gatekeepers {
+  @media @iphone-8-viewport {
+    // background: red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  h2 {
+    @media @iphone-8-viewport {
+      font-size: 20px;
+      padding-left: 10px;
+    }
+  }
+}
+
+.devs-container {
+  @media @iphone-8-viewport {
+    .flex-column-center();
+  }
+
+  .project-manager {
+    @media @iphone-8-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      border-bottom: 4px dotted @header-backgrond-color-1;
+    }
+
+    .michael {
+      @media @iphone-8-viewport {
+        .note-9-photo-style();
+      }
+    }
+
+    .about-pm {
+      @media @iphone-8-viewport {
+        .about-container-note-9();
+      }
+
+      h3 {
+        @media @iphone-8-viewport {
+          .h3-note-9();
+        }
+      }
+
+      p {
+        @media @iphone-8-viewport {
+          .p-about-note-9();
+        }
+      }
+
+      .michael-btn {
+        @media @iphone-8-viewport {
+          .about-btn-note-9();
+        }
+
+        a {
+          @media @iphone-8-viewport {
+            .a-about-note-9();
+          }
+        }
+      }
+    } // end of about-pm
+  } //end of project-manager
+
+  .front-end {
+    @media @iphone-8-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      border-bottom: 4px dotted @header-backgrond-color-1;
+      padding-top: 40px;
+    }
+
+    .front-end1 {
+      @media @iphone-8-viewport {
+        .flex-column-center();
+      }
+
+      .barbara {
+        @media @iphone-8-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-barbara {
+        @media @iphone-8-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @iphone-8-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @iphone-8-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .barbara-btn {
+          @media @iphone-8-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @iphone-8-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-barbara
+    } //end of front-end1
+
+    .front-end2 {
+      @media @iphone-8-viewport {
+        .flex-column-center();
+        padding-top: 50px;
+      }
+
+      .loralie {
+        @media @iphone-8-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-loralie {
+        @media @iphone-8-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @iphone-8-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @iphone-8-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .loralie-btn {
+          @media @iphone-8-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @iphone-8-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-loralie
+    } //end of front-end2
+  } // end of front-end
+
+  .web-ui {
+    @media @iphone-8-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      border-bottom: 4px dotted @header-backgrond-color-1;
+      padding-top: 40px;
+    }
+
+    .web-ui1 {
+      @media @iphone-8-viewport {
+        .flex-column-center();
+      }
+
+      .samuel {
+        @media @iphone-8-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-samuel {
+        @media @iphone-8-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @iphone-8-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @iphone-8-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .samuel-btn {
+          @media @iphone-8-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @iphone-8-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-samuel
+    } //end of web-ui1
+
+    .web-ui2 {
+      @media @iphone-8-viewport {
+        .flex-column-center();
+        padding-top: 50px;
+      }
+
+      .alyssa {
+        @media @iphone-8-viewport {
+          .note-9-photo-style();
+        }
+      }
+
+      .about-alyssa {
+        @media @iphone-8-viewport {
+          .about-container-note-9();
+        }
+
+        h3 {
+          @media @iphone-8-viewport {
+            .h3-note-9();
+          }
+        }
+
+        p {
+          @media @iphone-8-viewport {
+            .p-about-note-9();
+          }
+        }
+
+        .alyssa-btn {
+          @media @iphone-8-viewport {
+            .about-btn-note-9();
+          }
+
+          a {
+            @media @iphone-8-viewport {
+              .a-about-note-9();
+            }
+          }
+        }
+      } //end of about-alyssa
+    } //end of web-ui2
+  } // end of web-ui
+
+  .back-end {
+    @media @iphone-8-viewport {
+      .flex-column-center();
+      width: 100%;
+      padding-bottom: 40px;
+      //border-bottom: 4px dotted @header-backgrond-color-1;
+      padding-top: 40px;
+    }
+
+    .tedd {
+      @media @iphone-8-viewport {
+        .note-9-photo-style();
+      }
+    }
+
+    .about-tedd {
+      @media @iphone-8-viewport {
+        .about-container-note-9();
+      }
+
+      h3 {
+        @media @iphone-8-viewport {
+          .h3-note-9();
+        }
+      }
+
+      p {
+        @media @iphone-8-viewport {
+          .p-about-note-9();
+        }
+      }
+
+      .tedd-btn {
+        @media @iphone-8-viewport {
+          .about-btn-note-9();
+        }
+
+        a {
+          @media @iphone-8-viewport {
+            .a-about-note-9();
+          }
+        }
+      }
+    }
+  } //end of back-end
+} //end  of devs-container

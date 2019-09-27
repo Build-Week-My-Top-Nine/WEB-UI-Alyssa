@@ -33,6 +33,29 @@
   }
 }
 
+/*header {
+  @media @note-9-viewport {
+    font-family: Arial, Helvetica, sans-serif;
+    //ont-size: 40px;
+    .flex-column-center();
+    align-content: center;
+    width: 100%;
+  }
+
+  h1 {
+    @media @note-9-viewport {
+      font-size: 40px;
+    }
+  }
+
+  .marketing-nav {
+    @media @note-9-viewpor {
+      .flex-column-center();
+      background: red;
+    }
+  }
+} */
+
 .intro {
   @media @desktop {
     //background: white;
@@ -117,5 +140,253 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 150px;
     padding-left: 150px;
+  }
+}
+
+//note-9 viewport
+
+body {
+  @media @note-9-viewport {
+    background: black;
+    color: white;
+    //width: 100%;
+  }
+}
+
+header {
+  @media @note-9-viewport {
+    width: 100%;
+    .flex-column-center();
+  }
+
+  h1 {
+    @media @note-9-viewport {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      //background: black;
+      padding-left: 50px;
+    }
+  }
+
+  .marketing-nav {
+    @media @note-9-viewport {
+      .flex-column-center();
+      background-color: black;
+    }
+
+    a:hover {
+      @media @note-9-viewport {
+        color: red;
+      }
+    }
+
+    a {
+      @media @note-9-viewport {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        // border: 2px solid red;
+        padding-left: 136px;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}
+
+.intro {
+  @media @note-9-viewport {
+    .flex-column-center();
+    //padding-top: 40px;
+  }
+
+  h2 {
+    @media @note-9-viewport {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+    }
+  }
+
+  p {
+    @media @note-9-viewport {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+    }
+  }
+
+  .button-container {
+    @media @note-9-viewport {
+      background: black;
+      //width: 100%;
+      padding-top: 40px;
+    }
+
+    .sign-up-now {
+      @media @note-9-viewport {
+        border: 2px solid white;
+        background: black;
+        width: 100%;
+        height: 40px;
+      }
+
+      a {
+        @media @note-9-viewport {
+          text-decoration: none;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.preview-container {
+  @media @note-9-viewport {
+    // background: red;
+    width: 100%;
+    .flex-column-center();
+    padding-top: 40px;
+  }
+
+  h2 {
+    @media @note-9-viewport {
+      font-size: 30px;
+      //background: red;
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
+
+  .preview {
+    @media @note-9-viewport {
+      width: 100%;
+    }
+  }
+}
+
+// @media @iphone-8-viewport
+
+body {
+  @media @iphone-8-viewport {
+    background: black;
+    color: white;
+    //width: 100%;
+  }
+}
+
+header {
+  @media @iphone-8-viewport {
+    width: 100%;
+    .flex-column-center();
+  }
+
+  h1 {
+    @media @iphone-8-viewport {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 40px;
+      //background: black;
+      //padding-left: 50px;
+      text-align: center;
+    }
+  }
+
+  .marketing-nav {
+    @media @iphone-8-viewport {
+      .flex-column-center();
+      background-color: black;
+    }
+
+    a:hover {
+      @media @iphone-8-viewport {
+        color: red;
+      }
+    }
+
+    a {
+      @media @iphone-8-viewport {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: none;
+        color: white;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        // border: 2px solid red;
+        //padding-left: 136px;
+        text-align: center;
+        border-bottom: 1px solid white;
+      }
+    }
+  }
+}
+
+.intro {
+  @media @iphone-8-viewport {
+    .flex-column-center();
+    //padding-top: 40px;
+  }
+
+  h2 {
+    @media @iphone-8-viewport {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+    }
+  }
+
+  p {
+    @media @iphone-8-viewport {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+    }
+  }
+
+  .button-container {
+    @media @iphone-8-viewport {
+      background: black;
+      //width: 100%;
+      padding-top: 40px;
+    }
+
+    .sign-up-now {
+      @media @iphone-8-viewport {
+        border: 2px solid white;
+        background: black;
+        width: 100%;
+        height: 40px;
+      }
+
+      a {
+        @media @iphone-8-viewport {
+          text-decoration: none;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.preview-container {
+  @media @iphone-8-viewport {
+    // background: red;
+    width: 100%;
+    .flex-column-center();
+    padding-top: 40px;
+  }
+
+  h2 {
+    @media @iphone-8-viewport {
+      font-size: 30px;
+      //background: red;
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
+
+  .preview {
+    @media @iphone-8-viewport {
+      width: 100%;
+    }
   }
 }

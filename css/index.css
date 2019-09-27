@@ -934,6 +934,56 @@ header .search-and-nav-bar .search-bar button button:hover {
 .font-style {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.github-btn-style {
+  width: 45%;
+  background: black;
+  height: 130px;
+  border: 3px solid white;
+}
+.a-github-style {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  background: black;
+}
+.note-9-photo-style {
+  width: 200px;
+  height: 160px;
+  padding-left: 80px;
+}
+.about-container-note-9 {
+  width: 100%;
+  padding-top: 20px;
+}
+.h3-note-9 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  background: #1f1e1e;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+}
+.p-about-note-9 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  background: #1f1e1e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-btn-note-9 {
+  width: 100%;
+  border: 1px solid white;
+  background: black;
+  height: 30px;
+}
+.a-about-note-9 {
+  color: white;
+  text-decoration: none;
+}
 /*
 @font-face{
     font-family: "asfd";
@@ -969,6 +1019,28 @@ header .search-and-nav-bar .search-bar button button:hover {
     border-right: none;
   }
 }
+/*header {
+  @media @note-9-viewport {
+    font-family: Arial, Helvetica, sans-serif;
+    //ont-size: 40px;
+    .flex-column-center();
+    align-content: center;
+    width: 100%;
+  }
+
+  h1 {
+    @media @note-9-viewport {
+      font-size: 40px;
+    }
+  }
+
+  .marketing-nav {
+    @media @note-9-viewpor {
+      .flex-column-center();
+      background: red;
+    }
+  }
+} */
 @media (min-width: 1024px) {
   .intro {
     width: 100%;
@@ -1045,6 +1117,228 @@ header .search-and-nav-bar .search-bar button button:hover {
   font-size: 150px;
   padding-left: 150px;
 }
+@media (max-width: 360px) {
+  body {
+    background: black;
+    color: white;
+  }
+}
+@media (max-width: 360px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 360px) {
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-left: 50px;
+  }
+}
+@media (max-width: 360px) {
+  header .marketing-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+  }
+}
+@media (max-width: 360px) {
+  header .marketing-nav a:hover {
+    color: red;
+  }
+}
+@media (max-width: 360px) {
+  header .marketing-nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 136px;
+    border-bottom: 1px solid white;
+  }
+}
+@media (max-width: 360px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .intro h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .intro p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+}
+@media (max-width: 360px) {
+  .intro .button-container {
+    background: black;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .intro .button-container .sign-up-now {
+    border: 2px solid white;
+    background: black;
+    width: 100%;
+    height: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .intro .button-container .sign-up-now a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+}
+@media (max-width: 360px) {
+  .preview-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .preview-container h2 {
+    font-size: 30px;
+    width: 100%;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .preview-container .preview {
+    width: 100%;
+  }
+}
+@media (max-width: 414px) {
+  body {
+    background: black;
+    color: white;
+  }
+}
+@media (max-width: 414px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 414px) {
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  header .marketing-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+  }
+}
+@media (max-width: 414px) {
+  header .marketing-nav a:hover {
+    color: red;
+  }
+}
+@media (max-width: 414px) {
+  header .marketing-nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+}
+@media (max-width: 414px) {
+  .intro {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 414px) {
+  .intro h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .intro p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+  }
+}
+@media (max-width: 414px) {
+  .intro .button-container {
+    background: black;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .intro .button-container .sign-up-now {
+    border: 2px solid white;
+    background: black;
+    width: 100%;
+    height: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .intro .button-container .sign-up-now a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+}
+@media (max-width: 414px) {
+  .preview-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .preview-container h2 {
+    font-size: 30px;
+    width: 100%;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .preview-container .preview {
+    width: 100%;
+  }
+}
 @media (min-width: 1024px) {
   .about-nav {
     font-size: 100px;
@@ -1112,6 +1406,7 @@ header .search-and-nav-bar .search-bar button button:hover {
 @media (min-width: 1024px) {
   .project-manager .about-pm {
     width: 50%;
+    padding-bottom: 40px;
   }
 }
 @media (min-width: 1024px) {
@@ -1127,10 +1422,32 @@ header .search-and-nav-bar .search-bar button button:hover {
   }
 }
 @media (min-width: 1024px) {
+  .project-manager .about-pm .michael-btn {
+    width: 45%;
+    background: black;
+    height: 130px;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) {
+  .project-manager .about-pm .michael-btn a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  .project-manager .about-pm .michael-btn a:hover {
+    color: red;
+  }
+}
+@media (min-width: 1024px) {
   .front-end {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
     padding-top: 100px;
     padding-bottom: 60px;
     width: 100%;
@@ -1139,11 +1456,10 @@ header .search-and-nav-bar .search-bar button button:hover {
 }
 @media (min-width: 1024px) {
   .front-end .front-end1 {
-    width: 30%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-between;
   }
 }
 @media (min-width: 1024px) {
@@ -1156,6 +1472,7 @@ header .search-and-nav-bar .search-bar button button:hover {
   .front-end .front-end1 .about-barbara {
     background: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
   }
 }
 @media (min-width: 1024px) {
@@ -1169,12 +1486,32 @@ header .search-and-nav-bar .search-bar button button:hover {
   }
 }
 @media (min-width: 1024px) {
+  .front-end .front-end1 .about-barbara .barbara-btn {
+    width: 45%;
+    background: black;
+    height: 130px;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) {
+  .front-end .front-end1 .about-barbara .barbara-btn a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  .front-end .front-end1 .about-barbara .barbara-btn a:hover {
+    color: red;
+  }
+}
+@media (min-width: 1024px) {
   .front-end .front-end2 {
-    width: 30%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: center;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-between;
   }
 }
 @media (min-width: 1024px) {
@@ -1187,6 +1524,7 @@ header .search-and-nav-bar .search-bar button button:hover {
   .front-end .front-end2 .about-loralie {
     background: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
   }
 }
 @media (min-width: 1024px) {
@@ -1197,6 +1535,27 @@ header .search-and-nav-bar .search-bar button button:hover {
 @media (min-width: 1024px) {
   .front-end .front-end2 .about-loralie p {
     font-size: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .front-end .front-end2 .about-loralie .loralie-btn {
+    width: 45%;
+    background: black;
+    height: 130px;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) {
+  .front-end .front-end2 .about-loralie .loralie-btn a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  .front-end .front-end2 .about-loralie .loralie-btn a:hover {
+    color: red;
   }
 }
 @media (min-width: 1024px) {
@@ -1242,6 +1601,27 @@ header .search-and-nav-bar .search-bar button button:hover {
   }
 }
 @media (min-width: 1024px) {
+  .web-ui .web-ui1 .about-samuel .samuel-btn {
+    width: 45%;
+    background: black;
+    height: 130px;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) {
+  .web-ui .web-ui1 .about-samuel .samuel-btn a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  .web-ui .web-ui1 .about-samuel .samuel-btn a:hover {
+    color: red;
+  }
+}
+@media (min-width: 1024px) {
   .web-ui .web-ui2 {
     display: flex;
     justify-content: space-evenly;
@@ -1270,6 +1650,27 @@ header .search-and-nav-bar .search-bar button button:hover {
 @media (min-width: 1024px) {
   .web-ui .web-ui2 .about-alyssa p {
     font-size: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .web-ui .web-ui2 .about-alyssa .alyssa-btn {
+    width: 45%;
+    background: black;
+    height: 130px;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) {
+  .web-ui .web-ui2 .about-alyssa .alyssa-btn a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  .web-ui .web-ui2 .about-alyssa .alyssa-btn a:hover {
+    color: red;
   }
 }
 @media (min-width: 1024px) {
@@ -1303,5 +1704,908 @@ header .search-and-nav-bar .search-bar button button:hover {
 @media (min-width: 1024px) {
   .back-end .about-tedd p {
     font-size: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  .back-end .about-tedd .tedd-btn {
+    width: 45%;
+    background: black;
+    height: 130px;
+    border: 3px solid white;
+  }
+}
+@media (min-width: 1024px) {
+  .back-end .about-tedd .tedd-btn a {
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    background: black;
+  }
+}
+@media (min-width: 1024px) {
+  .back-end .about-tedd .tedd-btn a:hover {
+    color: red;
+  }
+}
+@media (max-width: 360px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 360px) {
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 360px) {
+  header .about-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+  }
+}
+@media (max-width: 360px) {
+  header .about-nav a:hover {
+    color: red;
+  }
+}
+@media (max-width: 360px) {
+  header .about-nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+}
+@media (max-width: 360px) {
+  .gatekeepers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .gatekeepers h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px dotted #1f1e1e;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager .michael {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager .about-pm {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager .about-pm h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager .about-pm p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager .about-pm .michael-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .project-manager .about-pm .michael-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px dotted #1f1e1e;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 .barbara {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 .about-barbara {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 .about-barbara h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 .about-barbara p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 .about-barbara .barbara-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end1 .about-barbara .barbara-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 .loralie {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 .about-loralie {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 .about-loralie h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 .about-loralie p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 .about-loralie .loralie-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .front-end .front-end2 .about-loralie .loralie-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px dotted #1f1e1e;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 .samuel {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 .about-samuel {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 .about-samuel h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 .about-samuel p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 .about-samuel .samuel-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui1 .about-samuel .samuel-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 .alyssa {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa .alyssa-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa .alyssa-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end .tedd {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end .about-tedd {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end .about-tedd h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end .about-tedd p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end .about-tedd .tedd-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 360px) {
+  .devs-container .back-end .about-tedd .tedd-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 414px) {
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 414px) {
+  header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+  }
+}
+@media (max-width: 414px) {
+  header .about-nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    background-color: black;
+  }
+}
+@media (max-width: 414px) {
+  header .about-nav a:hover {
+    color: red;
+  }
+}
+@media (max-width: 414px) {
+  header .about-nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+  }
+}
+@media (max-width: 414px) {
+  .gatekeepers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .gatekeepers h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px dotted #1f1e1e;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager .michael {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager .about-pm {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager .about-pm h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager .about-pm p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager .about-pm .michael-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .project-manager .about-pm .michael-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px dotted #1f1e1e;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 .barbara {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 .about-barbara {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 .about-barbara h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 .about-barbara p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 .about-barbara .barbara-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end1 .about-barbara .barbara-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 .loralie {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 .about-loralie {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 .about-loralie h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 .about-loralie p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 .about-loralie .loralie-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .front-end .front-end2 .about-loralie .loralie-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px dotted #1f1e1e;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 .samuel {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 .about-samuel {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 .about-samuel h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 .about-samuel p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 .about-samuel .samuel-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui1 .about-samuel .samuel-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 50px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 .alyssa {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa .alyssa-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .web-ui .web-ui2 .about-alyssa .alyssa-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end .tedd {
+    width: 200px;
+    height: 160px;
+    padding-left: 80px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end .about-tedd {
+    width: 100%;
+    padding-top: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end .about-tedd h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    background: #1f1e1e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end .about-tedd p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    background: #1f1e1e;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end .about-tedd .tedd-btn {
+    width: 100%;
+    border: 1px solid white;
+    background: black;
+    height: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .devs-container .back-end .about-tedd .tedd-btn a {
+    color: white;
+    text-decoration: none;
   }
 }
