@@ -11,6 +11,12 @@
 
 .flex-row {
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.flex-row-space-between {
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
@@ -43,7 +49,7 @@
 
 .a-style {
   .a-center-column();
-  color: @header-backgrond-color-1;
+  color: white;
   text-decoration-line: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 30px;
@@ -73,7 +79,7 @@
 }
 
 .a-h3 {
-  color: @header-backgrond-color-1;
+  color: white;
   text-decoration-line: none;
 }
 
@@ -81,4 +87,37 @@
   font-size: 60px;
   color: white;
   background: black;
+}
+
+.art-img-style {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 7px;
+  width: 450px;
+  height: 300px;
+}
+
+.food-img-style {
+  border: 4px solid #ddd;
+  border-radius: 6px;
+  // padding: 1px;
+  width: 500px;
+  height: 400px;
+}
+
+.input-style {
+  padding-bottom: 40px;
+  height: 200px;
+}
+
+.sign-up-style {
+  width: 100%;
+  height: 150px;
+  border: 3px solid white;
+  background: black;
+  color: white;
+}
+
+.font-style {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

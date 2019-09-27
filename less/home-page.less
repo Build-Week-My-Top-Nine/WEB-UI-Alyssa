@@ -1,13 +1,24 @@
+body {
+  @media @desktop {
+    background: black;
+    color: white;
+  }
+}
+
 .parent {
   @media @desktop {
-    .flex-column-left();
-    width: 60%;
+    .flex-row-center();
+    width: 100%;
     //background: red;
+    border-right: 2px dotted black;
   }
 
   .child1 {
     @media @desktop {
-      .flex-column-center();
+      .flex-column-left();
+      // border-right: 2px dotted black;
+      width: 60%;
+      border-right: red;
     }
     .music-suggestions {
       @media @desktop {
@@ -153,7 +164,7 @@
       }
     }
   } // End Of skeler Container
-}
+} //End of archive container
 
 .interests {
   @media @desktop {
@@ -234,4 +245,331 @@
       }
     }
   }
+}
+
+.art-space {
+  @media @desktop {
+    // background: blue;
+    .flex-column-center();
+    padding-top: 30px;
+  }
+
+  .art-archive {
+    @media @desktop {
+      background: @header-backgrond-color-1;
+      .flex-row();
+    }
+
+    .mytop9 {
+      @media @desktop {
+        //background: @header-backgrond-color-1;
+      }
+
+      h2 {
+        @media @desktop {
+          font-size: 75px;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.art-pics {
+  @media @desktop {
+    .flex-row-center();
+    // background: red;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .art1 {
+    @media @desktop {
+      .art-img-style();
+    }
+  }
+
+  .art2 {
+    @media @desktop {
+      .art-img-style();
+    }
+  }
+
+  .art3 {
+    @media @desktop {
+      .art-img-style();
+    }
+  }
+
+  .art4 {
+    @media @desktop {
+      .art-img-style();
+    }
+  }
+}
+
+.art-button-container {
+  @media @desktop {
+    padding-left: 80px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .art-btn {
+    @media @desktop {
+      background: rgb(0, 0, 0);
+      width: 20%;
+      height: 100px;
+      border-radius: 10%;
+      border: 4px solid white;
+    }
+
+    a {
+      @media @desktop {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+
+    a:hover {
+      @media @desktop {
+        color: red;
+        //background: rgb(255, 255, 255);
+      }
+    }
+  }
+} //end of art btn-container
+
+.food-container {
+  @media @desktop {
+    color: white;
+    .flex-column-left();
+    //background: red;
+    width: 100%;
+  }
+
+  .food-space {
+    @media @desktop {
+      background: @header-backgrond-color-1;
+      height: 200px;
+    }
+
+    h2 {
+      @media @desktop {
+        color: white;
+        font-size: 70px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 30px;
+      }
+    } //end of h2
+  } //end of food-space
+} // end of food-container
+
+.img-food {
+  @media @desktop {
+    padding-top: 100px;
+    background: black;
+    .flex-row();
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .food1 {
+    @media @desktop {
+      .flex-column-center();
+    }
+
+    .chicken-kiev {
+      @media @desktop {
+        .food-img-style();
+      }
+    }
+
+    h3 {
+      @media @desktop {
+        font-size: 70px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    }
+  } //end of food1
+
+  .food2 {
+    @media @desktop {
+      .flex-column-center();
+    }
+
+    .croquettes {
+      @media @desktop {
+        .food-img-style();
+      }
+    }
+
+    h3 {
+      @media @desktop {
+        font-size: 70px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    }
+  } //end of food2
+
+  .food3 {
+    @media @desktop {
+      .flex-column-center();
+    }
+
+    .sushi {
+      @media @desktop {
+        .food-img-style();
+      }
+    }
+
+    h3 {
+      @media @desktop {
+        font-size: 70px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+    }
+  } //end of food3
+} // end of img-food
+
+.food-btn-container {
+  @media @desktop {
+    //background: red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+  }
+
+  .food-btn {
+    @media @desktop {
+      width: 25%;
+      height: 100px;
+      border: 4px solid white;
+      border-radius: 10%;
+      background: black;
+    }
+
+    a {
+      @media @desktop {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-size: 55px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+
+    a:hover {
+      @media @desktop {
+        color: red;
+        //background: rgb(255, 255, 255);
+      }
+    }
+  }
+}
+
+.child2 {
+  @media @desktop {
+    color: white;
+    width: 35%;
+    .flex-column-left;
+  }
+
+  .sign-up {
+    @media @desktop {
+      //background: blue;
+    }
+
+    h2 {
+      @media @desktop {
+        background: @header-backgrond-color-1;
+        font-size: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-left: 40px;
+      }
+    }
+
+    .sign-up-form {
+      @media @desktop {
+        .flex-column-left();
+        //background: red;
+        padding: 30px;
+        height: 1500px;
+      }
+    }
+
+    .input1 {
+      @media @desktop {
+        .input-style();
+      }
+
+      .first-name {
+        @media @desktop {
+          .sign-up-style();
+        }
+      }
+    } //end of input1
+
+    .input2 {
+      @media @desktop {
+        .input-style();
+      }
+
+      .last-name {
+        @media @desktop {
+          .sign-up-style();
+        }
+      }
+    } //end of input2
+
+    .input3 {
+      @media @desktop {
+        .input-style();
+      }
+
+      .email {
+        @media @desktop {
+          .sign-up-style();
+        }
+      }
+    }
+
+    .input4 {
+      @media @desktop {
+        .input-style();
+      }
+
+      .username {
+        @media @desktop {
+          .sign-up-style();
+        }
+      }
+    }
+
+    .input5 {
+      @media @desktop {
+        .input-style();
+      }
+
+      .password {
+        @media @desktop {
+          .sign-up-style();
+        }
+      }
+    }
+
+    .submit {
+      @media @desktop {
+        width: 100%;
+      }
+
+      .submit-btb {
+        @media @desktop {
+          width: 50%;
+        }
+      }
+    }
+  } //end of sign-up
 }

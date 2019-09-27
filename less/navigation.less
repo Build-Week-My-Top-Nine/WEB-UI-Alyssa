@@ -1,6 +1,6 @@
 //less-watch-compiler less css index.less
 header {
-  .flex-row();
+  .flex-row-space-between();
   background: @header-backgrond-color-1;
   border: 1px solid black;
   color: white;
@@ -21,6 +21,21 @@ header {
       //padding-left: 30px;
       //width: 100%;
       //border: 1px solid red;
+    }
+
+    a {
+      @media @desktop {
+        color: white;
+        text-decoration: none;
+      }
+    }
+
+    a:hover {
+      @media @desktop {
+        color: white;
+        background: #300000;
+        font-size: 200px;
+      }
     }
   }
 
@@ -53,7 +68,7 @@ header {
       a:hover {
         @media @desktop {
           color: white;
-          background: rgb(20, 20, 189);
+          background: rgb(58, 1, 1);
         }
       }
 
@@ -112,7 +127,7 @@ header {
         float: left;
         width: 20%;
         padding: 10px;
-        background: #04017c;
+        background: #610303;
         color: white;
         font-size: 17px;
         border: 1px solid grey;
@@ -125,7 +140,7 @@ header {
         }
 
         button:hover {
-          background: #0b7dda;
+          background: #070606;
         }
       }
     }
@@ -134,7 +149,7 @@ header {
 
 .directory-nav {
   @media @desktop {
-    background: rgb(3, 56, 155);
+    background: rgb(17, 16, 16);
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -146,8 +161,8 @@ header {
 
   a:hover {
     @media @desktop {
-      background: rgb(199, 199, 235);
-      color: rgb(3, 3, 46);
+      background: rgb(66, 1, 1);
+      color: white;
       padding: 30px;
     }
   }
